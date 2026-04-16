@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusTech | Innovative Software Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <nav>
+        <div class="logo">Nexus<span>Tech</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact" class="btn-nav">Get Started</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="reveal">Scaling Ideas into <span class="accent">Digital Reality</span></h1>
+            <p class="fade-in">Premium Web Development and Enterprise Software Solutions for the modern era.</p>
+            <div class="hero-btns">
+                <a href="#portfolio" class="btn-primary">View Projects</a>
+                <a href="#services" class="btn-secondary">Our Services</a>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" alt="Tech Dashboard">
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="section-title">Core Solutions</h2>
+        <div class="service-grid">
+            <div class="card">
+                <div class="icon">🌐</div>
+                <h3>Web Development</h3>
+                <p>High-performance MERN stack applications tailored for scalability.</p>
+            </div>
+            <div class="card">
+                <div class="icon">💻</div>
+                <h3>Software Engineering</h3>
+                <p>Custom enterprise software designed to automate your workflow.</p>
+            </div>
+            <div class="card">
+                <div class="icon">📱</div>
+                <h3>Mobile Apps</h3>
+                <p>Cross-platform mobile experiences with seamless UI/UX.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-title">Our Impact</h2>
+        <div class="portfolio-container">
+            <div class="project-box">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=500&q=80" alt="Project 1">
+                <div class="overlay"><h4>Fintech Dashboard</h4></div>
+            </div>
+            <div class="project-box">
+                <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=500&q=80" alt="Project 2">
+                <div class="overlay"><h4>E-Commerce Engine</h4></div>
+            </div>
+        </div>
+    </section>
+<section id="blog" class="blog">
+        <h2 class="section-title">Industry Insights</h2>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <div class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=500&q=80" alt="Blog 1">
+                    <span class="category">Development</span>
+                </div>
+                <div class="blog-info">
+                    <span class="date">April 12, 2026</span>
+                    <h3>The Future of MERN Stack in 2026</h3>
+                    <p>Discover how AI integration is changing the way we build full-stack applications...</p>
+                    <a href="#blog-post-1" class="read-more">Read Article →</a>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <div class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=500&q=80" alt="Blog 2">
+                    <span class="category">Solutions</span>
+                </div>
+                <div class="blog-info">
+                    <span class="date">March 28, 2026</span>
+                    <h3>Why Scalability Matters for Startups</h3>
+                    <p>Building for 100 users is easy; building for 1,000,000 requires a different blueprint...</p>
+                    <a href="#blog-post-1" class="read-more">Read Article →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-card">
+            <h2>Ready to Build?</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Project Details" rows="5"></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 NexusTech Solutions. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple Loader Timeout
+        window.addEventListener('load', () => {
+            const loader = document.querySelector('.loader-wrapper');
+            setTimeout(() => {
+                loader.classList.add('fade-out');
+            }, 1000);
+        });
+    </script>
+<div id="blog-post-1" class="modal-container">
+    <div class="modal-content">
+        <a href="#blog" class="close-btn">&times;</a>
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" alt="Full Blog" class="modal-hero">
+        <div class="modal-body">
+            <span class="category">Development</span>
+            <h2>The Future of MERN Stack in 2026</h2>
+            <p class="meta">Published on April 12, 2026 | 5 min read</p>
+            <hr>
+            <p>The MERN stack (MongoDB, Express, React, Node.js) remains the gold standard for full-stack JavaScript development. However, in 2026, we are seeing a massive shift toward <strong>AI-augmented coding</strong> and <strong>Edge Computing</strong>.</p>
+            <p>At NexusTech, we are leveraging these advancements to deliver applications that are not only faster but smarter. By implementing serverless functions and real-time data streaming, our solutions provide a seamless user experience that was impossible just a few years ago.</p>
+            <p>Key takeaways for this year:
+                <ul>
+                    <li>Micro-frontend architectures for large teams.</li>
+                    <li>Native AI integration within the Express middleware.</li>
+                    <li>Enhanced security protocols for decentralized data.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="blog-post-2" class="modal-container">
+    <div class="modal-content">
+        <a href="#blog" class="close-btn">&times;</a>
+        <div class="modal-body">
+            <h2>Why Scalability Matters for Startups</h2>
+            <p>Content for the second article goes here...</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
